@@ -1,0 +1,27 @@
+@page "/pizzas"
+@using blasat.Data;
+@using blasat.Models;
+@inject PizzaService PizzaSvc;
+    
+
+    
+<h1>Choose your pizza</h1>
+
+<p>We have all these delicious recipes:</p>
+    @if (todaysPizzas == null)
+    {
+        <p>We're finding out what pizzas are available today...</p>
+    }
+    else
+    {
+        <!-- This markup will be rendered once the pizzas are loaded -->
+    }
+
+@code{
+private PizzaSpecial[] todaysPizzas;
+
+protected override async Task OnInitializedAsync()
+{
+    todaysPizzas = await PizzaSvc.GetPizzasAsync();
+}
+}

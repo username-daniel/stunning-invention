@@ -1,0 +1,7 @@
+@page "/pizzas-toppings"
+@using blasat.Models
+<h1>Our Latest Pizzas and Topping</h1>
+
+<PizzaType PizzaName="Hawaiian" PizzaDescription="The one with pineapple" />
+
+<PizzaTopping Topping="@(new PizzaTopping() { Name = "Chilli Sauce", Ingredients = "Three kinds of chilli." })" />
