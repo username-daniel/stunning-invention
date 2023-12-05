@@ -1,5 +1,5 @@
-@using blasat.Models;
-
+@page "/hit"
+@using blasat.Models
 <h2>New Topping: @Topping.Name</h2>
 
 <p>Ingredients: @Topping.Ingredients</p>
@@ -7,4 +7,6 @@
 @code {
     [Parameter]
     public PizzaTopping Topping { get; set; }
+
+
 }

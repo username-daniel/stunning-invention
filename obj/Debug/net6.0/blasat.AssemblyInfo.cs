@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blasat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+435afd6bae4144c7b14f2f6ecca3ccd236f4cf52")]
 [assembly: System.Reflection.AssemblyProductAttribute("blasat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blasat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
