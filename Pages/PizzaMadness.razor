@@ -1,0 +1,11 @@
+@*@using blasat.Models
+<h2>New Topping: @((salad != null) ? salad.Name : string.Empty)</h2>
+
+<p>Ingredients: @((salad != null) ? salad.Ingredients : string.Empty)</p>
+
+@code {
+    [Parameter]
+    public PizzaMadness salad { get; set; }
+
+
+}*@
